@@ -17,7 +17,7 @@ def create_dojo():
     return redirect('/dojos')
 
 @app.route('/dojo/<int:id>')
-def sjpw_dojo(id):
+def show_dojo(id):
     data = {
         "id": id
     }
